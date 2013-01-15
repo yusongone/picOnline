@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+.file-explorer{
+	display:block;
+	border:1px solid #ACACAC;
+	background:#FFFFFF;
+	position: fixed;
+	z-index:65535;
+	padding:3px;
+}
+.file-explorer .close-btn{
+	position: absolute;
+	top:5px;
+	right:10px;
+}
+.file-explorer a{
+	text-decoration: none;
+}
+.file-explorer .title-bar{
+	padding:10px 0;
+}
+.file-explorer .dialog-title{
+	font-size:20px;
+}
+.tabs-panel{
+	border-top:1px solid #E9E9E9 ;
+	padding:5px 0;
+}
+.server-files{
+	width:98%;
+	margin:5px auto;
+	overflow: scroll;
+}
+.tab-title{
+	display:inline-block;
+	margin:0;
+	padding:5px 10px;
+	color:#000000;
+	cursor:pointer;
+}
+.current-tab-title{
+	background:#FFFFFF;
+	border-top:#DD4B39 5px solid;
+	color:#DD4B39;
+	cursor:default;
+}
+
+/*file broswer style *****************************/
+.file{
+	float:left;
+	position:relative;
+	margin:5px;
+}
+.img-title,.tools{
+	background:#565656;
+	color:#FFFFFF;
+	width:136px;
+	font-size:8px;
+	padding:0px 2px;
+	display:block;
+}
+.file,.img-box{
+	width:140px;
+	height:120px;
+}
+.img-box{
+	text-align:center;
+}
+.img-box img{
+	max-height: 100px;
+}
+ul.tools{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	margin:0;
+	list-style-type: none;
+	display:none;
+}
+li.tool{
+	float:left;
+	margin:0px 2px;
+	cursor:pointer;
+}
+

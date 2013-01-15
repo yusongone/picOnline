@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+.k_tree{
+	position: relative;
+	width:100px;
+}
+.k_tree li,.k_tree ul{
+	list-style-type:none;
+	float:left;
+	clear: both;
+}
+.k_tree ul{
+	margin-left: 10px;
+}
+.k_tree .contextmenu{
+	position: fixed;
+}
+.k_node{
+	display:block;
+	float:left;
+}
+.k_node *{
+	font-size: 16px;
+}
+.k_node .sign,
+.k_node .nosign,
+.k_node .icon,
+.k_node .text{
+	float:left;	
+}
+.k_node .sign,.k_node .nosign{
+	display:block;
+	width:16px;
+	height:16px;
+	border:2px solid transparent;
+}
+.k_node .sign{
+	background: url("img/arrow-right-2.png") no-repeat;
+}
+.k_node .nosign{
+	cursor:default;
+}
+.k_node .sign:hover{
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+.k_node .sign_expanded{
+	background: url("img/arrow-down-2.png") no-repeat;
+}
+.k_tree .contextmenu{
+	border:1px solid gray;
+	background: white;
+}
+.contextmenu li{
+	display:block;
+	width:100%;
+}
+.contextmenu .menu_item{
+	line-height:20px;
+	display:block;
+	width:100%;
+	border-bottom:1px dotted gray;
+}
+.contextmenu .menu_item span{
+	margin:auto 10px;
+}
+.contextmenu .menu_item:hover{
+	background: #E7E7E7;
+}
+.node_editing{
+	width:100px;
+	border:1px solid gray;
+}
