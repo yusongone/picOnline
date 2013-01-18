@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>HOME|在线选片系统</title>
+		<title>上传照片|在线选片平台</title>
 		<link type="text/css" rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
 		<link type="text/css" rel="stylesheet" href="/css/public.css" />
 		<link type="text/css" rel="stylesheet" href="/css/bindPic.css" />

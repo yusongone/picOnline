@@ -13,7 +13,7 @@ pageSpace.bind=function(){
 	var that=this;
 	this._btn_createProduct.click(function(){
 		var div=that.renderCreateProduct();
-			that.hideArea.show(div);
+			that.hideArea.open(div);
 	});
 };
 

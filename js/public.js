@@ -12,10 +12,14 @@ var publicJs=window.publicJs||(function(){
 		};
 		hideArea.hide=function(){
 			this.state="hide";	
-			this.area.hide("slow",function(){$(this).html("")});
+			this.area.slideUp();
 		};	
+		hideArea.open=function(content){
+			this.area.html("").append(content).slideDown();
+			this.state="show";	
+		};
 		hideArea.show=function(content){
-			this.area.html("").append(content).show(500);
+			this.area.slideDown();
 			this.state="show";	
 		};
 

@@ -24,7 +24,7 @@ pageIndex.bind=function(){
 			var ok=$("<a/>",{"class":"btn btn-primary","text":"创建","style":"margin-left:10px;"});
 			var clean=$("<a/>",{"class":"btn","text":"取消","style":"margin-left:5px;"});
 			div.append(name,id,ok,clean);
-			pageIndex.hideArea.show(div);
+			pageIndex.hideArea.open(div);
 				ok.click(function(){
 					that.addOrderByAjax({
 							"name":name.val(),
