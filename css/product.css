@@ -1,0 +1,66 @@
+
+/*public model*/
+
+.productBox{
+	overflow:hidden;
+	width:720px;
+}
+.productBox .product{
+	margin-left:15px;
+	margin-top:15px;
+	float:left;
+	border:1px solid #ddd;
+
+}
+.productBox .imgBox{
+	background:white;
+	width:150px;
+	height:150px;
+	position:relative;
+	overflow:hidden;
+}
+.productBox .showSize{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:150px;
+	left:0px;
+
+}
+.productBox .alphadiv{
+	background:black;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	filter:alpha(opacity=30);
+	opacity:0.3;
+
+}
+.productBox .sizeList{
+	position:absolute;
+	padding:10px;
+	width:130px;
+	height:105px;
+	top:0px;
+	left:0px;
+}
+.productBox .tools{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:25px;
+	background:red;
+}
+.productBox .tools .add{
+	width:50px;
+	height:100%;
+	background:blue;
+	margin:0 auto;
+}
+
+.product .name{
+	text-align:center;
+}

@@ -1,0 +1,9 @@
+
+/*test selectProductList*/
+.selectedProductList{
+	width:200px;
+	height:300px;
+	margin-top:15px;
+	float:left;
+	border:1px solid #ddd;
+}

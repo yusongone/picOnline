@@ -1,0 +1,47 @@
+.picList{
+	padding:10px;
+	overflow:hidden;
+}
+.pic{
+	
+	position:relative;
+	width:160px;
+}
+.pic .img{
+	width:150px;
+	height:150px;
+}
+.pic .alphaDiv,.pic .infoDiv{
+	width:150px;
+	height:45px;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+}
+.pic .alphaDiv{
+	filter:alpha(opacity=30);
+	opacity:0.3;
+	background:black;
+}
+.pic .progressText{
+	text-align:right;
+	width:100%;
+	color:white;
+	height:35px;
+	line-height:30px;
+	font-size:22px;
+}
+.pic .progressBar{
+	height:10px;
+	width:100px;
+	background:#0cf;
+}
+.pic .closeDiv{
+	position:absolute;
+	top:1px;
+	right:1px;
+	width:16px;
+	height:16px;
+	padding:2px;
+	background:white;
+}
