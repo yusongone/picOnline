@@ -3,3 +3,4 @@ Scripts/
 .buildpath
 .project
 .settings/
+*.swp
