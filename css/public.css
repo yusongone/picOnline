@@ -1,6 +1,11 @@
 .con{
-	width:940px;
+	width:100%;
 	margin:0 auto;
+}
+@media screen and (min-width:940px){
+	.con{
+		width:940px;
+	}
 }
 .center{	
 	margin:0 auto;
