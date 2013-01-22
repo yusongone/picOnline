@@ -2,7 +2,7 @@
 class SampleController extends CController{
 	public function actionIndex(){
 		$list=Sample::model()->findAll();
-		echo CJSON::encode($list);
+		//echo CJSON::encode($list);
 	}
 	public function actionView($id){
 		$sample=Sample::model()->findByPk($id);
@@ -16,5 +16,7 @@ class SampleController extends CController{
 		$sample->save();
 		echo $sample->id;
 	}
+	public function actionFiles(){
+		
+	}
 }
-?>

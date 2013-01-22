@@ -6,6 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
 		<link type="text/css" rel="stylesheet" href="/css/public.css" />
 		<link type="text/css" rel="stylesheet" href="/css/selectPic.css" />
+		<meta name="viewport" content="width=device-width">
 		<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="/js/public.js"></script>
 		<script type="text/javascript" src="/js/selectPic.js"></script>

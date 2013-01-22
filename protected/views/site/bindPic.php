@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,6 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
 		<link type="text/css" rel="stylesheet" href="/css/public.css" />
 		<link type="text/css" rel="stylesheet" href="/css/bindPic.css" />
+		<meta name="viewport" content="width=device-width">
 		<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="/js/public.js"></script>
 		<script type="text/javascript" src="/js/bindPic.js"></script>
@@ -17,7 +17,10 @@
 				<div class="holder"></div>
 				<div class="userTitle">尚界影音工作室 |</div>
 				<div class="tools">
-					<a class="btn btn-primary">上传图片</a>
+					<a class="btn btn-primary fileBtn">
+						<div style="derection:ltr;">上传图片</div>
+						<input type="file" id="fileUp" accept="image/jpeg,image/png"   multiple="multiple" style="" />
+</a>
 				</div>
 			</div>
 		</div>
